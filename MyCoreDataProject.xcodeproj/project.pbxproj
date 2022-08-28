@@ -23,6 +23,8 @@
 		8D220D9C28BC021B00CCFB76 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220D9B28BC021B00CCFB76 /* UIImage+Ext.swift */; };
 		8D220D9E28BC022400CCFB76 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220D9D28BC022400CCFB76 /* UITextField+Ext.swift */; };
 		8D220DA228BC039900CCFB76 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220DA128BC039900CCFB76 /* UserDataService.swift */; };
+		8D220DA528BC044100CCFB76 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220DA428BC044100CCFB76 /* Router.swift */; };
+		8D220DA828BC046400CCFB76 /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220DA728BC046400CCFB76 /* AssemblyModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		8D220D9B28BC021B00CCFB76 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		8D220D9D28BC022400CCFB76 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
 		8D220DA128BC039900CCFB76 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		8D220DA428BC044100CCFB76 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8D220DA728BC046400CCFB76 /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		8D220D8028BBFED700CCFB76 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8D220DA628BC044E00CCFB76 /* Assembly */,
+				8D220DA328BC042E00CCFB76 /* Router */,
 				8D220D8D28BC013000CCFB76 /* DetailUsersModule */,
 				8D220D8128BBFEE100CCFB76 /* ListUsersModule */,
 			);
@@ -201,6 +207,22 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		8D220DA328BC042E00CCFB76 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8D220DA428BC044100CCFB76 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8D220DA628BC044E00CCFB76 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				8D220DA728BC046400CCFB76 /* AssemblyModuleBuilder.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,11 +299,13 @@
 				8D220D9328BC017E00CCFB76 /* DetailUsersViewController.swift in Sources */,
 				8D220D8628BBFF6100CCFB76 /* ListUsersPresenter.swift in Sources */,
 				8D220D9128BC015E00CCFB76 /* DetailUsersPresenter.swift in Sources */,
+				8D220DA828BC046400CCFB76 /* AssemblyModuleBuilder.swift in Sources */,
 				8D220D8828BBFFB500CCFB76 /* User+CoreDataClass.swift in Sources */,
 				8D220D6A28BBFD7800CCFB76 /* AppDelegate.swift in Sources */,
 				8D220D7428BBFD7800CCFB76 /* MyCoreDataProject.xcdatamodeld in Sources */,
 				8D220D9E28BC022400CCFB76 /* UITextField+Ext.swift in Sources */,
 				8D220D6C28BBFD7800CCFB76 /* SceneDelegate.swift in Sources */,
+				8D220DA528BC044100CCFB76 /* Router.swift in Sources */,
 				8D220D9A28BC021200CCFB76 /* String+Ext.swift in Sources */,
 				8D220D8B28BBFFF100CCFB76 /* ListUsersViewController.swift in Sources */,
 				8D220D9C28BC021B00CCFB76 /* UIImage+Ext.swift in Sources */,

@@ -262,7 +262,7 @@ extension DetailUsersViewController: UIPickerViewDelegate {
 
 extension DetailUsersViewController {
     enum Metrics {
-        static let avatarImageViewTopOffset: CGFloat = 170
+        static let avatarImageViewTopOffset: CGFloat = 100
         static let avatarImageViewHeight: CGFloat = 200
 
         static let primaryTopOffset: CGFloat = 20
