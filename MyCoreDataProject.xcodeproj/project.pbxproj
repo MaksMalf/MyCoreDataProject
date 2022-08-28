@@ -22,6 +22,7 @@
 		8D220D9A28BC021200CCFB76 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220D9928BC021200CCFB76 /* String+Ext.swift */; };
 		8D220D9C28BC021B00CCFB76 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220D9B28BC021B00CCFB76 /* UIImage+Ext.swift */; };
 		8D220D9E28BC022400CCFB76 /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220D9D28BC022400CCFB76 /* UITextField+Ext.swift */; };
+		8D220DA228BC039900CCFB76 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D220DA128BC039900CCFB76 /* UserDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		8D220D9928BC021200CCFB76 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		8D220D9B28BC021B00CCFB76 /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		8D220D9D28BC022400CCFB76 /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		8D220DA128BC039900CCFB76 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 		8D220D6828BBFD7800CCFB76 /* MyCoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				8D220DA028BC033F00CCFB76 /* New Group */,
+				8D220D9F28BC02D500CCFB76 /* UserDataService */,
 				8D220D9628BC01FA00CCFB76 /* Extensions */,
 				8D220D9528BC01AE00CCFB76 /* Resources */,
 				8D220D9428BC01A500CCFB76 /* App */,
@@ -182,6 +186,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8D220D9F28BC02D500CCFB76 /* UserDataService */ = {
+			isa = PBXGroup;
+			children = (
+				8D220DA128BC039900CCFB76 /* UserDataService.swift */,
+			);
+			path = UserDataService;
+			sourceTree = "<group>";
+		};
+		8D220DA028BC033F00CCFB76 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D220D9828BC020900CCFB76 /* Date+Ext.swift in Sources */,
+				8D220DA228BC039900CCFB76 /* UserDataService.swift in Sources */,
 				8D220D9328BC017E00CCFB76 /* DetailUsersViewController.swift in Sources */,
 				8D220D8628BBFF6100CCFB76 /* ListUsersPresenter.swift in Sources */,
 				8D220D9128BC015E00CCFB76 /* DetailUsersPresenter.swift in Sources */,
